@@ -1,0 +1,5 @@
+Symbol,TradeMode,TradePrice,NextLevelDistance,Lotsize,MagicNumber,
+XAUUSD,SSB,1,0.1,12345,
+XAUUSD,BBS,1,0.1,12345,
+,,,,,
+,,,,,

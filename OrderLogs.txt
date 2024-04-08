@@ -1,0 +1,148 @@
+05/04/2024 14:51:21 Sell trade executed primary @ XAUUSD @ 2289.017, next buy=2288.0, next sell=2290.0 
+05/04/2024 14:53:35 sell secondy loop level updated : CurrTradeBuyLevel: 2287.0, CurrTradeSellLevel:2288.0 
+ 142183383 , 1 ordernew Target = 2287.0,new stoploss= 2290.0
+05/04/2024 14:53:35 Couple Buy trade executed @ XAUUSD @ 2287.995 target sl modified for sell order id 142183383 
+05/04/2024 14:53:40 Sell trade executed secondary @ XAUUSD @ 2288.012, next buy=2287.0, next sell=2289.0 
+05/04/2024 14:54:45 Sell trade executed secondary @ XAUUSD @ 2289.002, next buy=2288.0, next sell=2290.0 
+05/04/2024 19:37:03 Buy trade executed primary @ XAUUSD @ 2296.979, next buy=2296.0, next sell=2298.0 
+05/04/2024 19:38:39 Buy trade executed secondary @ XAUUSD @ 2295.989, next buy=2295.0, next sell=2296.0 
+05/04/2024 19:38:40 buy secondy loop level updated : CurrTradeBuyLevel: 2295.0, CurrTradeSellLevel:2297.0 
+ 142383997, 0 order new Target = 2297.0,new stoploss= 2294.0
+05/04/2024 19:38:40 Couple Sell trade executed @ XAUUSD @ 2296.162 target sl modified for Buy order id 142383997 
+05/04/2024 19:39:05 buy secondy loop level updated : CurrTradeBuyLevel: 2296.0, CurrTradeSellLevel:2298.0 
+05/04/2024 19:39:56 buy secondy loop level updated : CurrTradeBuyLevel: 2297.0, CurrTradeSellLevel:2299.0 
+ 142382342, 0 order new Target = 2299.0,new stoploss= 2296.0
+05/04/2024 19:39:56 Couple Sell trade executed @ XAUUSD @ 2298.017 target sl modified for Buy order id 142382342 
+05/04/2024 19:40:09 buy secondy loop level updated : CurrTradeBuyLevel: 2298.0, CurrTradeSellLevel:2300.0 
+05/04/2024 19:40:17 buy secondy loop level updated : CurrTradeBuyLevel: 2299.0, CurrTradeSellLevel:2301.0 
+05/04/2024 19:40:30 buy secondy loop level updated : CurrTradeBuyLevel: 2300.0, CurrTradeSellLevel:2302.0 
+05/04/2024 19:40:40 buy secondy loop level updated : CurrTradeBuyLevel: 2301.0, CurrTradeSellLevel:2303.0 
+05/04/2024 19:41:14 Buy trade executed secondary @ XAUUSD @ 2300.987, next buy=2300.0, next sell=2301.0 
+05/04/2024 19:41:15 buy secondy loop level updated : CurrTradeBuyLevel: 2300.0, CurrTradeSellLevel:2302.0 
+ 142387129, 0 order new Target = 2302.0,new stoploss= 2299.0
+05/04/2024 19:41:15 Couple Sell trade executed @ XAUUSD @ 2301.002 target sl modified for Buy order id 142387129 
+05/04/2024 19:42:00 buy secondy loop level updated : CurrTradeBuyLevel: 2301.0, CurrTradeSellLevel:2303.0 
+05/04/2024 19:42:25 buy secondy loop level updated : CurrTradeBuyLevel: 2302.0, CurrTradeSellLevel:2304.0 
+05/04/2024 19:51:20 Buy trade executed primary @ XAUUSD @ 2302.638, next buy=2302.0, next sell=2304.0 
+05/04/2024 19:51:31 Buy trade executed secondary @ XAUUSD @ 2301.989, next buy=2301.0, next sell=2303.0 
+05/04/2024 19:52:13 Sell trade executed primary @ XAUUSD @ 2302.007, next buy=2301.0, next sell=2303.0 
+05/04/2024 19:52:49 Sell trade executed secondary @ XAUUSD @ 2303.031, next buy=2302.0, next sell=2304.0 
+05/04/2024 19:53:58 Sell trade executed secondary @ XAUUSD @ 2304.056, next buy=2303.0, next sell=2305.0 
+05/04/2024 19:54:24 Sell trade executed secondary @ XAUUSD @ 2305.003, next buy=2304.0, next sell=2306.0 
+05/04/2024 19:54:25 Sell trade executed secondary @ XAUUSD @ 2306.029, next buy=2305.0, next sell=2307.0 
+05/04/2024 19:54:26 Sell trade executed secondary @ XAUUSD @ 2307.01, next buy=2306.0, next sell=2308.0 
+05/04/2024 19:54:28 Sell trade executed secondary @ XAUUSD @ 2308.019, next buy=2307.0, next sell=2309.0 
+05/04/2024 19:54:29 sell secondy loop level updated : CurrTradeBuyLevel: 2306.0, CurrTradeSellLevel:2308.0 
+ 142400597 , 1 ordernew Target = 2307.0,new stoploss= 2310.0
+05/04/2024 19:54:29 Couple Buy trade executed @ XAUUSD @ 2306.968 target sl modified for sell order id 142400597 
+05/04/2024 19:54:40 sell secondy loop level updated : CurrTradeBuyLevel: 2305.0, CurrTradeSellLevel:2307.0 
+ 142399973 , 1 ordernew Target = 2306.0,new stoploss= 2309.0
+05/04/2024 19:54:40 Couple Buy trade executed @ XAUUSD @ 2305.946 target sl modified for sell order id 142399973 
+05/04/2024 19:55:52 Sell trade executed secondary @ XAUUSD @ 2307.007, next buy=2306.0, next sell=2308.0 
+05/04/2024 19:56:03 Sell trade executed secondary @ XAUUSD @ 2308.176, next buy=2307.0, next sell=2309.0 
+05/04/2024 19:56:20 Sell trade executed secondary @ XAUUSD @ 2309.145, next buy=2308.0, next sell=2310.0 
+05/04/2024 20:02:27 Sell trade executed primary @ XAUUSD @ 2314.035, next buy=2313.0, next sell=2315.0 
+05/04/2024 20:02:42 Sell trade executed secondary @ XAUUSD @ 2315.268, next buy=2314.0, next sell=2316.0 
+05/04/2024 20:03:02 Sell trade executed secondary @ XAUUSD @ 2316.001, next buy=2315.0, next sell=2317.0 
+05/04/2024 20:03:12 Sell trade executed secondary @ XAUUSD @ 2317.002, next buy=2316.0, next sell=2318.0 
+05/04/2024 20:03:19 Sell trade executed secondary @ XAUUSD @ 2318.165, next buy=2317.0, next sell=2319.0 
+05/04/2024 20:03:35 Sell trade executed secondary @ XAUUSD @ 2319.019, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:03:37 sell secondy loop level updated : CurrTradeBuyLevel: 2317.0, CurrTradeSellLevel:2319.0 
+ 142426359 , 1 ordernew Target = 2318.0,new stoploss= 2321.0
+05/04/2024 20:03:37 Couple Buy trade executed @ XAUUSD @ 2317.987 target sl modified for sell order id 142426359 
+05/04/2024 20:03:38 Sell trade executed secondary @ XAUUSD @ 2319.0, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:03:54 Sell trade executed secondary @ XAUUSD @ 2320.037, next buy=2319.0, next sell=2321.0 
+05/04/2024 20:03:58 Sell trade executed secondary @ XAUUSD @ 2321.04, next buy=2320.0, next sell=2322.0 
+05/04/2024 20:04:04 sell secondy loop level updated : CurrTradeBuyLevel: 2319.0, CurrTradeSellLevel:2321.0 
+ 142428207 , 1 ordernew Target = 2320.0,new stoploss= 2323.0
+05/04/2024 20:04:04 Couple Buy trade executed @ XAUUSD @ 2319.94 target sl modified for sell order id 142428207 
+05/04/2024 20:04:09 sell secondy loop level updated : CurrTradeBuyLevel: 2318.0, CurrTradeSellLevel:2320.0 
+ 142427391 , 1 ordernew Target = 2319.0,new stoploss= 2322.0
+05/04/2024 20:04:09 Couple Buy trade executed @ XAUUSD @ 2318.979 target sl modified for sell order id 142427391 
+05/04/2024 20:04:13 Sell trade executed secondary @ XAUUSD @ 2320.109, next buy=2319.0, next sell=2321.0 
+05/04/2024 20:04:16 Sell trade executed secondary @ XAUUSD @ 2321.043, next buy=2320.0, next sell=2322.0 
+05/04/2024 20:04:24 sell secondy loop level updated : CurrTradeBuyLevel: 2319.0, CurrTradeSellLevel:2321.0 
+ 142428863 , 1 ordernew Target = 2320.0,new stoploss= 2323.0
+05/04/2024 20:04:24 Couple Buy trade executed @ XAUUSD @ 2319.983 target sl modified for sell order id 142428863 
+05/04/2024 20:04:40 sell secondy loop level updated : CurrTradeBuyLevel: 2318.0, CurrTradeSellLevel:2320.0 
+ 142428817 , 1 ordernew Target = 2319.0,new stoploss= 2322.0
+05/04/2024 20:04:40 Couple Buy trade executed @ XAUUSD @ 2318.985 target sl modified for sell order id 142428817 
+05/04/2024 20:04:50 sell secondy loop level updated : CurrTradeBuyLevel: 2317.0, CurrTradeSellLevel:2319.0 
+ 142426523 , 1 ordernew Target = 2318.0,new stoploss= 2321.0
+05/04/2024 20:04:50 Couple Buy trade executed @ XAUUSD @ 2317.976 target sl modified for sell order id 142426523 
+05/04/2024 20:05:41 Sell trade executed secondary @ XAUUSD @ 2319.059, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:05:55 sell secondy loop level updated : CurrTradeBuyLevel: 2317.0, CurrTradeSellLevel:2319.0 
+ 142433197 , 1 ordernew Target = 2318.0,new stoploss= 2321.0
+05/04/2024 20:05:55 Couple Buy trade executed @ XAUUSD @ 2317.99 target sl modified for sell order id 142433197 
+05/04/2024 20:07:26 Sell trade executed primary @ XAUUSD @ 2321.043, next buy=2318.0, next sell=2324.0 
+05/04/2024 20:09:32 sell secondy loop level updated : CurrTradeBuyLevel: 2315.0, CurrTradeSellLevel:2321.0 
+ 142435823 , 1 ordernew Target = 2315.0,new stoploss= 2324.0
+05/04/2024 20:09:32 Couple Buy trade executed @ XAUUSD @ 2317.969 target sl modified for sell order id 142435823 
+05/04/2024 20:10:40 Sell trade executed secondary @ XAUUSD @ 2321.016, next buy=2318.0, next sell=2324.0 
+05/04/2024 20:16:59 Sell trade executed secondary @ XAUUSD @ 2324.122, next buy=2321.0, next sell=2327.0 
+05/04/2024 20:20:05 sell secondy loop level updated : CurrTradeBuyLevel: 2318.0, CurrTradeSellLevel:2324.0 
+ 142451336 , 1 ordernew Target = 2321.0,new stoploss= 2330.0
+05/04/2024 20:20:05 Couple Buy trade executed @ XAUUSD @ 2320.99 target sl modified for sell order id 142451336 
+05/04/2024 20:20:46 sell secondy loop level updated : CurrTradeBuyLevel: 2315.0, CurrTradeSellLevel:2321.0 
+ 142440948 , 1 ordernew Target = 2318.0,new stoploss= 2327.0
+05/04/2024 20:20:46 Couple Buy trade executed @ XAUUSD @ 2317.999 target sl modified for sell order id 142440948 
+05/04/2024 20:24:57 Sell trade executed primary @ XAUUSD @ 2318.009, next buy=2317.0, next sell=2319.0 
+05/04/2024 20:25:19 Sell trade executed secondary @ XAUUSD @ 2319.026, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:25:29 Sell trade executed secondary @ XAUUSD @ 2320.024, next buy=2319.0, next sell=2321.0 
+05/04/2024 20:26:58 sell secondy loop level updated : CurrTradeBuyLevel: 2318.0, CurrTradeSellLevel:2320.0 
+ 142467011 , 1 ordernew Target = 2319.0,new stoploss= 2322.0
+05/04/2024 20:26:58 Couple Buy trade executed @ XAUUSD @ 2318.974 target sl modified for sell order id 142467011 
+05/04/2024 20:27:03 sell secondy loop level updated : CurrTradeBuyLevel: 2317.0, CurrTradeSellLevel:2319.0 
+ 142466683 , 1 ordernew Target = 2318.0,new stoploss= 2321.0
+05/04/2024 20:27:03 Couple Buy trade executed @ XAUUSD @ 2317.989 target sl modified for sell order id 142466683 
+05/04/2024 20:28:24 Sell trade executed secondary @ XAUUSD @ 2319.032, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:29:09 Sell trade executed secondary @ XAUUSD @ 2320.025, next buy=2319.0, next sell=2321.0 
+05/04/2024 20:29:25 sell secondy loop level updated : CurrTradeBuyLevel: 2318.0, CurrTradeSellLevel:2320.0 
+ 142470969 , 1 ordernew Target = 2319.0,new stoploss= 2322.0
+05/04/2024 20:29:25 Couple Buy trade executed @ XAUUSD @ 2318.993 target sl modified for sell order id 142470969 
+05/04/2024 20:29:43 sell secondy loop level updated : CurrTradeBuyLevel: 2317.0, CurrTradeSellLevel:2319.0 
+ 142470400 , 1 ordernew Target = 2318.0,new stoploss= 2321.0
+05/04/2024 20:29:43 Couple Buy trade executed @ XAUUSD @ 2317.974 target sl modified for sell order id 142470400 
+05/04/2024 20:30:10 sell secondy loop level updated : CurrTradeBuyLevel: 2316.0, CurrTradeSellLevel:2318.0 
+ 142466062 , 1 ordernew Target = 2316.0,new stoploss= 2319.0
+05/04/2024 20:30:10 Couple Buy trade executed @ XAUUSD @ 2316.949 target sl modified for sell order id 142466062 
+05/04/2024 20:31:32 Buy trade executed primary @ XAUUSD @ 2316.937, next buy=2317.0, next sell=2319.0 
+05/04/2024 20:31:32 Buy trade executed secondary @ XAUUSD @ 2316.937, next buy=2316.0, next sell=2318.0 
+05/04/2024 20:31:56 Sell trade executed primary @ XAUUSD @ 2317.472, next buy=2316.0, next sell=2318.0 
+05/04/2024 20:32:16 Sell trade executed secondary @ XAUUSD @ 2318.033, next buy=2317.0, next sell=2319.0 
+05/04/2024 20:32:27 sell secondy loop level updated : CurrTradeBuyLevel: 2316.0, CurrTradeSellLevel:2318.0 
+ 142474034 , 1 ordernew Target = 2316.0,new stoploss= 2319.0
+05/04/2024 20:32:27 Couple Buy trade executed @ XAUUSD @ 2316.989 target sl modified for sell order id 142474034 
+05/04/2024 20:32:54 sell secondy loop level updated : CurrTradeBuyLevel: 2315.0, CurrTradeSellLevel:2317.0 
+ 142473574 , 1 ordernew Target = 2315.0,new stoploss= 2318.0
+05/04/2024 20:32:54 Couple Buy trade executed @ XAUUSD @ 2315.966 target sl modified for sell order id 142473574 
+05/04/2024 20:33:21 Sell trade executed secondary @ XAUUSD @ 2317.024, next buy=2316.0, next sell=2318.0 
+05/04/2024 20:33:38 Sell trade executed secondary @ XAUUSD @ 2318.0, next buy=2317.0, next sell=2319.0 
+05/04/2024 20:34:25 Sell trade executed secondary @ XAUUSD @ 2319.026, next buy=2318.0, next sell=2320.0 
+05/04/2024 20:34:38 Sell trade executed secondary @ XAUUSD @ 2320.012, next buy=2319.0, next sell=2321.0 
+05/04/2024 20:35:43 Sell trade executed secondary @ XAUUSD @ 2321.027, next buy=2320.0, next sell=2322.0 
+05/04/2024 20:35:46 Sell trade executed secondary @ XAUUSD @ 2322.014, next buy=2321.0, next sell=2323.0 
+05/04/2024 20:36:04 Sell trade executed secondary @ XAUUSD @ 2323.018, next buy=2322.0, next sell=2324.0 
+05/04/2024 20:36:35 sell secondy loop level updated : CurrTradeBuyLevel: 2321.0, CurrTradeSellLevel:2323.0 
+ 142479491 , 1 ordernew Target = 2321.0,new stoploss= 2324.0
+05/04/2024 20:36:35 Couple Buy trade executed @ XAUUSD @ 2321.97 target sl modified for sell order id 142479491 
+08/04/2024 14:05:25 Sell trade executed primary @ XAUUSD @ 2336.069, next buy=2316.0, next sell=2318.0 
+08/04/2024 14:05:25 Sell trade executed secondary @ XAUUSD @ 2336.069, next buy=2317.0, next sell=2319.0 
+08/04/2024 14:05:26 Sell trade executed secondary @ XAUUSD @ 2336.081, next buy=2318.0, next sell=2320.0 
+08/04/2024 14:05:26 Sell trade executed secondary @ XAUUSD @ 2336.081, next buy=2319.0, next sell=2321.0 
+08/04/2024 14:05:26 Sell trade executed secondary @ XAUUSD @ 2336.081, next buy=2320.0, next sell=2322.0 
+08/04/2024 14:05:27 Sell trade executed secondary @ XAUUSD @ 2336.081, next buy=2321.0, next sell=2323.0 
+08/04/2024 14:05:27 Sell trade executed secondary @ XAUUSD @ 2336.019, next buy=2322.0, next sell=2324.0 
+08/04/2024 14:05:27 Sell trade executed secondary @ XAUUSD @ 2335.982, next buy=2323.0, next sell=2325.0 
+08/04/2024 14:05:28 Sell trade executed secondary @ XAUUSD @ 2336.077, next buy=2324.0, next sell=2326.0 
+08/04/2024 14:05:28 Sell trade executed secondary @ XAUUSD @ 2336.111, next buy=2325.0, next sell=2327.0 
+08/04/2024 14:05:28 Sell trade executed secondary @ XAUUSD @ 2336.111, next buy=2326.0, next sell=2328.0 
+08/04/2024 14:05:28 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2327.0, next sell=2329.0 
+08/04/2024 14:05:29 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2328.0, next sell=2330.0 
+08/04/2024 14:05:29 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2329.0, next sell=2331.0 
+08/04/2024 14:05:29 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2330.0, next sell=2332.0 
+08/04/2024 14:05:30 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2331.0, next sell=2333.0 
+08/04/2024 14:05:30 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2332.0, next sell=2334.0 
+08/04/2024 14:05:30 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2333.0, next sell=2335.0 
+08/04/2024 14:05:30 Sell trade executed secondary @ XAUUSD @ 2336.207, next buy=2334.0, next sell=2336.0 
+08/04/2024 14:05:31 Sell trade executed secondary @ XAUUSD @ 2336.164, next buy=2335.0, next sell=2337.0 
