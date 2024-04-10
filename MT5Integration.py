@@ -126,6 +126,7 @@ def mt_buy(symbol,lot,MagicNumber):
             "type_filling": mt.ORDER_FILLING_IOC,
         }
         result = mt.order_send(request)
+        print("result: ",result)
         order_id = result.order
 
         return order_id
