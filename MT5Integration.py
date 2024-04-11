@@ -113,7 +113,7 @@ def current_bid(symbol):
 def mt_buy(symbol,lot,MagicNumber):
         price = mt.symbol_info_tick(symbol).ask
         point = mt.symbol_info(symbol).point
-        print(price)
+
         request = {
             "action": mt.TRADE_ACTION_DEAL,
             "symbol": symbol,
@@ -126,7 +126,7 @@ def mt_buy(symbol,lot,MagicNumber):
             "type_filling": mt.ORDER_FILLING_IOC,
         }
         result = mt.order_send(request)
-        print("result: ",result)
+
         order_id = result.order
 
         return order_id
@@ -135,7 +135,7 @@ def mt_buy_bracket(symbol,lot,MagicNumber,sl,tp,reference_price):
     global mt
     price = mt.symbol_info_tick(symbol).ask
     point = mt.symbol_info(symbol).point
-    print("reference_price:",reference_price)
+
     request = {
             "action": mt.TRADE_ACTION_DEAL,
             "symbol": symbol,
@@ -152,7 +152,7 @@ def mt_buy_bracket(symbol,lot,MagicNumber,sl,tp,reference_price):
     result = mt.order_send(request)
 
     order_id = result.order
-    print("result: ", result)
+
     return order_id
 
 
@@ -177,7 +177,7 @@ def mt_sell_bracket(symbol,lot,MagicNumber,sl,tp,reference_price):
     result = mt.order_send(request)
 
     order_id = result.order
-    print("result: ", result)
+
     return order_id
 
 def mt_short(symbol,lot,MagicNumber):
@@ -196,7 +196,7 @@ def mt_short(symbol,lot,MagicNumber):
         }
         result = mt.order_send(request)
         order_id = result.order
-        print("result: ", result)
+
         return order_id
 
 
@@ -222,6 +222,7 @@ def mt_close_buy(symbol,lot,orderid,timestamp):
 
 
 
+
 def mt_close_sell(symbol,lot,orderid,timestamp):
     try:
         price = mt.symbol_info_tick(symbol).ask
@@ -237,9 +238,10 @@ def mt_close_sell(symbol,lot,orderid,timestamp):
             "type_filling": mt.ORDER_FILLING_IOC,
         }
         result = mt.order_send(request)
-        print(result)
+
         orderlog = f"{timestamp} {result}"
         print(orderlog)
+
         write_to_order_logs(orderlog)
     except Exception as e:
         print(" error occurred while closing sell order:", str(e))
@@ -251,21 +253,18 @@ def changeslpl(ticket,pair,pos_type,SL,tp,ea_magic_number,volume,reference_price
     global mt
     p_open = mt.positions_get(ticket=ticket)
     price_open = p_open[0].price_open
-    print("reference_price: ",reference_price)
 
     if pos_type=="BUY":
         pos_type=mt.ORDER_TYPE_BUY
         stoploss=reference_price-SL
         target=reference_price+tp
         Oederog = f" { ticket }, {pos_type} order new Target = {target},new stoploss= {stoploss}"
-        print(Oederog)
         write_to_order_logs(Oederog)
     if pos_type=="SHORT":
         pos_type = mt.ORDER_TYPE_SELL
         stoploss=reference_price + SL
         target = reference_price - tp
         Oederog = f" { ticket } , {pos_type} ordernew Target = {target},new stoploss= {stoploss}"
-        print(Oederog)
         write_to_order_logs(Oederog)
 
 
@@ -285,7 +284,7 @@ def changeslpl(ticket,pair,pos_type,SL,tp,ea_magic_number,volume,reference_price
     "type_filling": mt.ORDER_FILLING_FOK,
     "ENUM_ORDER_STATE": mt.ORDER_FILLING_RETURN,
     }
-    print(request)
+
 #// perform the check and display the result 'as is'
     result = mt.order_send(request)
     return result

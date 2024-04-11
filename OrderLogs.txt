@@ -1,0 +1,410 @@
+10/04/2024 21:29:55 One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 21:29:55 closing previous Sell Trade of level 2337.0
+10/04/2024 21:29:55 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:29:55 closing previous BBS Trade of level 2336.0
+10/04/2024 21:29:55 OrderSendResult(retcode=10009, deal=107470227, order=145007032, volume=0.1, price=2337.001, bid=2337.001, ask=2337.001, comment='python  close se', request_id=192057874, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.001, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:29:55 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:29:57 closing previous Sell Trade of level 2337.0
+10/04/2024 21:29:57 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:29:57 closing previous BBS Trade of level 2336.0
+10/04/2024 21:29:57 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.165, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:29:57 OrderSendResult(retcode=10009, deal=107470251, order=145007065, volume=0.1, price=2337.248, bid=2337.248, ask=2337.248, comment='python  close se', request_id=192057880, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.999, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007044, position_by=0))
+10/04/2024 21:29:57 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:29:59 closing previous Sell Trade of level 2337.0
+10/04/2024 21:29:59 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:29:59 closing previous BBS Trade of level 2336.0
+10/04/2024 21:29:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.01, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:29:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.01, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007044, position_by=0))
+10/04/2024 21:29:59 OrderSendResult(retcode=10009, deal=107470282, order=145007114, volume=0.1, price=2337.052, bid=2337.052, ask=2337.052, comment='python  close se', request_id=192057886, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.011, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007102, position_by=0))
+10/04/2024 21:29:59 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:30:01 closing previous Sell Trade of level 2337.0
+10/04/2024 21:30:01 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:30:01 closing previous BBS Trade of level 2336.0
+10/04/2024 21:30:01 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.236, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:30:01 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.236, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007044, position_by=0))
+10/04/2024 21:30:01 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.236, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007102, position_by=0))
+10/04/2024 21:30:01 OrderSendResult(retcode=10009, deal=107470297, order=145007132, volume=0.1, price=2337.384, bid=2337.384, ask=2337.384, comment='python  close se', request_id=192057892, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.236, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007125, position_by=0))
+10/04/2024 21:30:01 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:30:03 closing previous Sell Trade of level 2337.0
+10/04/2024 21:30:03 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:30:03 closing previous BBS Trade of level 2336.0
+10/04/2024 21:30:03 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.407, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:30:03 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.407, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007044, position_by=0))
+10/04/2024 21:30:03 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.407, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007102, position_by=0))
+10/04/2024 21:30:03 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.407, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007125, position_by=0))
+10/04/2024 21:30:03 OrderSendResult(retcode=10009, deal=107470316, order=145007152, volume=0.1, price=2337.208, bid=2337.208, ask=2337.208, comment='python  close se', request_id=192057898, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.208, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007140, position_by=0))
+10/04/2024 21:30:03 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:30:04 closing previous Sell Trade of level 2337.0
+10/04/2024 21:30:04 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:30:04 closing previous BBS Trade of level 2336.0
+10/04/2024 21:30:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.017, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007019, position_by=0))
+10/04/2024 21:30:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.017, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007044, position_by=0))
+10/04/2024 21:30:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.017, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007102, position_by=0))
+10/04/2024 21:30:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.017, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007125, position_by=0))
+10/04/2024 21:30:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.017, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007140, position_by=0))
+10/04/2024 21:30:04 OrderSendResult(retcode=10009, deal=107470334, order=145007171, volume=0.1, price=2336.878, bid=2336.878, ask=2336.878, comment='python  close se', request_id=192057904, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.011, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145007161, position_by=0))
+10/04/2024 21:30:04 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:30:06 closing previous Sell Trade of level 2337.0
+10/04/2024 21:30:06 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:30:07 closing previous Sell Trade of level 2338.0
+10/04/2024 21:30:07 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:30:08 closing previous Sell Trade of level 2339.0
+10/04/2024 21:30:08 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2341.0 
+10/04/2024 21:30:09 closing previous Sell Trade of level 2340.0
+10/04/2024 21:30:09 Opening new BBS Trade this is new level next BBSup: 2340.0 and BBSdown:2342.0 
+10/04/2024 21:30:10 closing previous Sell Trade of level 2341.0
+10/04/2024 21:33:22 One sell order and Two buy orderexecuted  @ XAUUSD @ 2337.0, next up level=2337.0, next down level=2339.0 
+10/04/2024 21:33:22 closing previous Sell Trade of level 2338.0
+10/04/2024 21:33:22 OrderSendResult(retcode=10009, deal=107471375, order=145008639, volume=0.1, price=2338.0750000000003, bid=2338.0750000000003, ask=2338.0750000000003, comment='python  close se', request_id=192057940, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.075, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008632, position_by=0))
+10/04/2024 21:33:22 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:33:22 closing previous BBS Trade of level 2337.0
+10/04/2024 21:33:22 OrderSendResult(retcode=10009, deal=107471397, order=145008668, volume=0.1, price=2338.014, bid=2338.014, ask=2338.014, comment='python  close se', request_id=192057946, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.025, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008654, position_by=0))
+10/04/2024 21:33:22 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2337.0,bbsdownLevel:2339.0
+10/04/2024 21:33:25 closing previous Sell Trade of level 2338.0
+10/04/2024 21:33:25 OrderSendResult(retcode=10009, deal=107471407, order=145008680, volume=0.1, price=2337.986, bid=2337.986, ask=2337.986, comment='python  close se', request_id=192057948, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.014, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008676, position_by=0))
+10/04/2024 21:33:25 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:33:25 closing previous BBS Trade of level 2337.0
+10/04/2024 21:33:25 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.986, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008654, position_by=0))
+10/04/2024 21:33:25 OrderSendResult(retcode=10009, deal=107471433, order=145008714, volume=0.1, price=2338.041, bid=2338.041, ask=2338.041, comment='python  close se', request_id=192057954, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.991, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008693, position_by=0))
+10/04/2024 21:33:25 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2337.0,bbsdownLevel:2339.0
+10/04/2024 21:33:27 closing previous Sell Trade of level 2338.0
+10/04/2024 21:33:27 OrderSendResult(retcode=10009, deal=107471444, order=145008728, volume=0.1, price=2338.111, bid=2338.111, ask=2338.111, comment='python  close se', request_id=192057956, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.111, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008721, position_by=0))
+10/04/2024 21:33:27 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:33:27 closing previous BBS Trade of level 2337.0
+10/04/2024 21:33:27 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.108, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008654, position_by=0))
+10/04/2024 21:33:27 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.108, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008693, position_by=0))
+10/04/2024 21:33:27 OrderSendResult(retcode=10009, deal=107471467, order=145008751, volume=0.1, price=2338.072, bid=2338.072, ask=2338.072, comment='python  close se', request_id=192057962, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.108, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008741, position_by=0))
+10/04/2024 21:33:27 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2337.0,bbsdownLevel:2339.0
+10/04/2024 21:33:30 closing previous Sell Trade of level 2338.0
+10/04/2024 21:33:30 OrderSendResult(retcode=10009, deal=107471471, order=145008755, volume=0.1, price=2338.072, bid=2338.072, ask=2338.072, comment='python  close se', request_id=192057964, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.072, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008753, position_by=0))
+10/04/2024 21:33:30 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:33:30 closing previous BBS Trade of level 2337.0
+10/04/2024 21:33:30 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.902, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008654, position_by=0))
+10/04/2024 21:33:30 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.902, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008693, position_by=0))
+10/04/2024 21:33:30 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.902, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008741, position_by=0))
+10/04/2024 21:33:30 OrderSendResult(retcode=10009, deal=107471489, order=145008778, volume=0.1, price=2337.786, bid=2337.786, ask=2337.786, comment='python  close se', request_id=192057970, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.786, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008766, position_by=0))
+10/04/2024 21:33:30 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2337.0,bbsdownLevel:2339.0
+10/04/2024 21:33:32 closing previous Sell Trade of level 2338.0
+10/04/2024 21:33:32 OrderSendResult(retcode=10009, deal=107471494, order=145008783, volume=0.1, price=2337.7980000000002, bid=2337.7980000000002, ask=2337.7980000000002, comment='python  close se', request_id=192057972, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.798, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145008781, position_by=0))
+10/04/2024 21:33:32 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 21:33:33 closing previous Sell Trade of level 2339.0
+10/04/2024 21:33:33 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2341.0 
+10/04/2024 21:33:34 closing previous Sell Trade of level 2340.0
+10/04/2024 21:33:34 Opening new BBS Trade this is new level next BBSup: 2340.0 and BBSdown:2342.0 
+10/04/2024 21:33:35 closing previous Sell Trade of level 2341.0
+10/04/2024 21:33:35 Opening new BBS Trade this is new level next BBSup: 2341.0 and BBSdown:2343.0 
+10/04/2024 21:33:36 closing previous Sell Trade of level 2342.0
+10/04/2024 21:33:36 Opening new BBS Trade this is new level next BBSup: 2342.0 and BBSdown:2344.0 
+10/04/2024 21:33:37 closing previous Sell Trade of level 2343.0
+10/04/2024 21:33:37 Opening new BBS Trade this is new level next BBSup: 2343.0 and BBSdown:2345.0 
+10/04/2024 21:33:38 closing previous Sell Trade of level 2344.0
+10/04/2024 21:35:46 One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 21:35:46 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:46 OrderSendResult(retcode=10009, deal=107472302, order=145009872, volume=0.1, price=2337.034, bid=2337.034, ask=2337.034, comment='python  close se', request_id=192058016, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.006, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009871, position_by=0))
+10/04/2024 21:35:46 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:46 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:46 OrderSendResult(retcode=10009, deal=107472317, order=145009885, volume=0.1, price=2337.043, bid=2337.043, ask=2337.043, comment='python  close se', request_id=192058022, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.96, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:46 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:35:49 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:49 OrderSendResult(retcode=10009, deal=107472320, order=145009888, volume=0.1, price=2337.043, bid=2337.043, ask=2337.043, comment='python  close se', request_id=192058024, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.043, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009887, position_by=0))
+10/04/2024 21:35:49 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:49 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:49 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.174, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:49 OrderSendResult(retcode=10009, deal=107472341, order=145009911, volume=0.1, price=2337.291, bid=2337.291, ask=2337.291, comment='python  close se', request_id=192058030, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.231, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009897, position_by=0))
+10/04/2024 21:35:49 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:35:51 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:51 OrderSendResult(retcode=10009, deal=107472353, order=145009917, volume=0.1, price=2337.277, bid=2337.277, ask=2337.277, comment='python  close se', request_id=192058032, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.247, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009913, position_by=0))
+10/04/2024 21:35:51 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:51 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:51 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.277, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:51 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.277, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009897, position_by=0))
+10/04/2024 21:35:51 OrderSendResult(retcode=10009, deal=107472367, order=145009939, volume=0.1, price=2337.367, bid=2337.367, ask=2337.367, comment='python  close se', request_id=192058038, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.367, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009932, position_by=0))
+10/04/2024 21:35:51 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:35:54 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:54 OrderSendResult(retcode=10009, deal=107472374, order=145009948, volume=0.1, price=2337.33, bid=2337.33, ask=2337.33, comment='python  close se', request_id=192058040, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.38, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009944, position_by=0))
+10/04/2024 21:35:54 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:54 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:54 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.33, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:54 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.33, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009897, position_by=0))
+10/04/2024 21:35:54 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.33, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009932, position_by=0))
+10/04/2024 21:35:54 OrderSendResult(retcode=10009, deal=107472387, order=145009963, volume=0.1, price=2337.178, bid=2337.178, ask=2337.178, comment='python  close se', request_id=192058046, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.258, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009953, position_by=0))
+10/04/2024 21:35:54 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:35:56 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:56 OrderSendResult(retcode=10009, deal=107472393, order=145009971, volume=0.1, price=2337.178, bid=2337.178, ask=2337.178, comment='python  close se', request_id=192058048, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.178, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009968, position_by=0))
+10/04/2024 21:35:56 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:56 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:56 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.385, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:56 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.385, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009897, position_by=0))
+10/04/2024 21:35:56 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.385, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009932, position_by=0))
+10/04/2024 21:35:56 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.385, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009953, position_by=0))
+10/04/2024 21:35:56 OrderSendResult(retcode=10009, deal=107472406, order=145009987, volume=0.1, price=2337.385, bid=2337.385, ask=2337.385, comment='python  close se', request_id=192058054, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.385, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009981, position_by=0))
+10/04/2024 21:35:56 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:35:59 closing previous Sell Trade of level 2337.0
+10/04/2024 21:35:59 OrderSendResult(retcode=10009, deal=107472416, order=145009997, volume=0.1, price=2337.63, bid=2337.63, ask=2337.63, comment='python  close se', request_id=192058056, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.7, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009989, position_by=0))
+10/04/2024 21:35:59 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2339.0 
+10/04/2024 21:35:59 closing previous BBS Trade of level 2336.0
+10/04/2024 21:35:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.359, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009877, position_by=0))
+10/04/2024 21:35:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.359, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009897, position_by=0))
+10/04/2024 21:35:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.359, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009932, position_by=0))
+10/04/2024 21:35:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.359, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009953, position_by=0))
+10/04/2024 21:35:59 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.359, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145009981, position_by=0))
+10/04/2024 21:35:59 OrderSendResult(retcode=10009, deal=107472430, order=145010018, volume=0.1, price=2337.322, bid=2337.322, ask=2337.322, comment='python  close se', request_id=192058062, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.322, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145010008, position_by=0))
+10/04/2024 21:35:59 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2338.0
+10/04/2024 21:36:01 closing previous Sell Trade of level 2337.0
+10/04/2024 21:36:01 OrderSendResult(retcode=10009, deal=107472437, order=145010025, volume=0.1, price=2337.142, bid=2337.142, ask=2337.142, comment='python  close se', request_id=192058064, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.142, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145010021, position_by=0))
+10/04/2024 21:37:52 One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 21:37:52 closing previous BBS Trade of level 2335.0
+10/04/2024 21:37:52 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2337.0 
+10/04/2024 21:37:53 closing previous BBS Trade of level 2334.0
+10/04/2024 21:37:53 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2336.0 
+10/04/2024 21:37:54 closing previous BBS Trade of level 2333.0
+10/04/2024 21:37:54 Opening new BBS Trade this is new level next BBSup: 2333.0 and BBSdown:2335.0 
+10/04/2024 21:37:55 closing previous BBS Trade of level 2332.0
+10/04/2024 21:37:55 Opening new BBS Trade this is new level next BBSup: 2332.0 and BBSdown:2334.0 
+10/04/2024 21:37:56 closing previous BBS Trade of level 2331.0
+10/04/2024 21:37:56 Opening new BBS Trade this is new level next BBSup: 2331.0 and BBSdown:2333.0 
+10/04/2024 21:37:57 closing previous BBS Trade of level 2330.0
+10/04/2024 21:37:57 Opening new BBS Trade this is new level next BBSup: 2330.0 and BBSdown:2332.0 
+10/04/2024 21:37:58 closing previous BBS Trade of level 2329.0
+10/04/2024 22:25:35 One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 22:25:35 closing previous BBS Trade of level 2335.0
+10/04/2024 22:27:06Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 22:27:06 closing previous BBS Trade of level 2335.0
+10/04/2024 22:27:06 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2337.0 
+10/04/2024 22:27:07 closing previous BBS Trade of level 2334.0
+10/04/2024 22:27:07 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2336.0 
+10/04/2024 22:27:08 closing previous BBS Trade of level 2333.0
+10/04/2024 22:27:08 Opening new BBS Trade this is new level next BBSup: 2333.0 and BBSdown:2335.0 
+10/04/2024 22:27:09 closing previous BBS Trade of level 2332.0
+10/04/2024 22:28:06Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2336.0, next up level=2336.0, next down level=2338.0 
+10/04/2024 22:28:06 closing previous BBS Trade of level 2335.0
+10/04/2024 22:28:06 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2337.0 
+10/04/2024 22:28:07 closing previous BBS Trade of level 2334.0
+10/04/2024 22:28:07 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2336.0 
+10/04/2024 22:28:08 closing previous BBS Trade of level 2333.0
+10/04/2024 22:28:45 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2338.0, next up level=2337.0, next down level=2339.0 
+10/04/2024 22:28:45 closing previous Sell Trade of level 2338.0
+10/04/2024 22:28:45 OrderSendResult(retcode=10009, deal=107494611, order=145038261, volume=0.1, price=2337.61, bid=2337.61, ask=2337.61, comment='python  close se', request_id=1029577350, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.66, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145038260, position_by=0))
+10/04/2024 22:28:45 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2340.0 
+10/04/2024 22:28:47 closing previous Sell Trade of level 2339.0
+10/04/2024 22:28:47 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2341.0 
+10/04/2024 22:28:48 closing previous Sell Trade of level 2340.0
+10/04/2024 22:28:48 Opening new BBS Trade this is new level next BBSup: 2340.0 and BBSdown:2342.0 
+10/04/2024 22:28:49 closing previous Sell Trade of level 2341.0
+10/04/2024 22:28:49 Opening new BBS Trade this is new level next BBSup: 2341.0 and BBSdown:2343.0 
+10/04/2024 22:28:50 closing previous Sell Trade of level 2342.0
+10/04/2024 22:28:50 Opening new BBS Trade this is new level next BBSup: 2342.0 and BBSdown:2344.0 
+10/04/2024 22:28:51 closing previous Sell Trade of level 2343.0
+10/04/2024 22:28:51 Opening new BBS Trade this is new level next BBSup: 2343.0 and BBSdown:2345.0 
+10/04/2024 22:28:52 closing previous Sell Trade of level 2344.0
+10/04/2024 22:28:52 Opening new BBS Trade this is new level next BBSup: 2344.0 and BBSdown:2346.0 
+10/04/2024 22:28:53 closing previous Sell Trade of level 2345.0
+10/04/2024 22:28:53 Opening new BBS Trade this is new level next BBSup: 2345.0 and BBSdown:2347.0 
+10/04/2024 22:28:53 closing previous Sell Trade of level 2346.0
+10/04/2024 22:28:53 Opening new BBS Trade this is new level next BBSup: 2346.0 and BBSdown:2348.0 
+10/04/2024 22:28:54 closing previous Sell Trade of level 2347.0
+10/04/2024 22:28:54 Opening new BBS Trade this is new level next BBSup: 2347.0 and BBSdown:2349.0 
+10/04/2024 22:28:55 closing previous Sell Trade of level 2348.0
+10/04/2024 22:28:55 Opening new BBS Trade this is new level next BBSup: 2348.0 and BBSdown:2350.0 
+10/04/2024 22:28:56 closing previous Sell Trade of level 2349.0
+10/04/2024 22:28:56 Opening new BBS Trade this is new level next BBSup: 2349.0 and BBSdown:2351.0 
+10/04/2024 22:28:57 closing previous Sell Trade of level 2350.0
+10/04/2024 22:28:57 Opening new BBS Trade this is new level next BBSup: 2350.0 and BBSdown:2352.0 
+10/04/2024 22:28:58 closing previous Sell Trade of level 2351.0
+10/04/2024 22:28:58 Opening new BBS Trade this is new level next BBSup: 2351.0 and BBSdown:2353.0 
+10/04/2024 22:28:59 closing previous Sell Trade of level 2352.0
+10/04/2024 22:34:30Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2333.0, next up level=2335.0, next down level=2333.0 
+10/04/2024 22:35:55 closing previous Sell Trade of level 2336.0
+10/04/2024 22:35:55 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+10/04/2024 22:36:13 closing previous Sell Trade of level 2335.0
+10/04/2024 22:36:13 OrderSendResult(retcode=10009, deal=107498930, order=145043264, volume=0.1, price=2331.947, bid=2331.947, ask=2331.947, comment='python  close se', request_id=1029577445, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2331.98, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145042937, position_by=0))
+10/04/2024 22:36:13 Opening new BBS Trade this is new level next BBSup: 2333.0 and BBSdown:2331.0 
+10/04/2024 22:39:17Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2328.0, next up level=2329.0, next down level=2327.0 
+10/04/2024 22:40:15Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2328.0, next up level=2329.0, next down level=2327.0 
+10/04/2024 22:40:17 closing previous BBS Trade of level 2328.0
+10/04/2024 22:40:17 OrderSendResult(retcode=10009, deal=107503274, order=145047893, volume=0.1, price=2328.684, bid=2328.684, ask=2328.684, comment='python  close se', request_id=1029577468, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2329.014, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145047878, position_by=0))
+10/04/2024 22:40:17 Opening new BBS Trade this is new level next BBSup: 2330.0 and BBSdown:2328.0 
+10/04/2024 22:41:08 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2328.0, next up level=2329.0, next down level=2327.0 
+10/04/2024 22:41:39 closing previous Sell Trade of level 2328.0
+10/04/2024 22:41:39 OrderSendResult(retcode=10009, deal=107503634, order=145048334, volume=0.1, price=2326.944, bid=2326.944, ask=2326.944, comment='python  close se', request_id=1029577478, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2326.976, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145048178, position_by=0))
+10/04/2024 22:41:39 Opening new BBS Trade this is new level next BBSup: 2328.0 and BBSdown:2326.0 
+10/04/2024 22:43:01 closing previous BBS Trade of level 2327.0
+10/04/2024 22:43:01 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2329.0,bbsdownLevel:2327.0
+11/04/2024 13:08:40Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2338.0, next up level=2339.0, next down level=2337.0 
+11/04/2024 13:08:57 closing previous Sell Trade of level 2338.0
+11/04/2024 13:08:57 OrderSendResult(retcode=10009, deal=107682520, order=145312824, volume=0.1, price=2336.921, bid=2336.921, ask=2336.921, comment='python  close se', request_id=3627787499, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.985, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145312759, position_by=0))
+11/04/2024 13:08:57 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 13:16:10 closing previous BBS Trade of level 2337.0
+11/04/2024 13:16:10 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2339.0,bbsdownLevel:2337.0
+11/04/2024 13:21:21 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2339.0, next up level=2340.0, next down level=2338.0 
+11/04/2024 13:22:32Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2339.0, next up level=2340.0, next down level=2338.0 
+11/04/2024 13:24:03 closing previous Sell Trade of level 2339.0
+11/04/2024 13:24:03 OrderSendResult(retcode=10009, deal=107686271, order=145317477, volume=0.1, price=2337.886, bid=2337.886, ask=2337.886, comment='python  close se', request_id=3627787519, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.958, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145317044, position_by=0))
+11/04/2024 13:24:03 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2337.0 
+11/04/2024 13:25:24 closing previous Sell Trade of level 2338.0
+11/04/2024 13:25:24 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 13:31:56 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2337.0, next up level=2338.0, next down level=2336.0 
+11/04/2024 13:34:47 closing previous BBS Trade of level 2337.0
+11/04/2024 13:34:47 OrderSendResult(retcode=10009, deal=107689587, order=145321601, volume=0.1, price=2338.022, bid=2338.022, ask=2338.022, comment='python  close se', request_id=3627787539, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.022, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145321008, position_by=0))
+11/04/2024 13:34:47 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2337.0 
+11/04/2024 13:35:54 closing previous Sell Trade of level 2338.0
+11/04/2024 13:35:54 OrderSendResult(retcode=10009, deal=107689868, order=145321966, volume=0.1, price=2337.026, bid=2337.026, ask=2337.026, comment='python  close se', request_id=3627787543, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.977, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145321607, position_by=0))
+11/04/2024 13:35:54 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 13:36:49 closing previous Sell Trade of level 2337.0
+11/04/2024 13:36:49 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.997, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145321008, position_by=0))
+11/04/2024 13:36:49 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 13:37:02 closing previous Sell Trade of level 2336.0
+11/04/2024 13:37:02 Opening new BBS Trade this is new level next BBSup: 2336.0 and BBSdown:2334.0 
+11/04/2024 13:37:41 closing previous Sell Trade of level 2335.0
+11/04/2024 13:37:41 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2333.0 
+11/04/2024 13:38:06 closing previous BBS Trade of level 2334.0
+11/04/2024 13:38:06 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2334.0
+11/04/2024 13:41:47 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2334.0, next up level=2335.0, next down level=2333.0 
+11/04/2024 13:44:29 closing previous Sell Trade of level 2334.0
+11/04/2024 13:44:29 OrderSendResult(retcode=10009, deal=107692725, order=145325266, volume=0.1, price=2332.821, bid=2332.821, ask=2332.821, comment='python  close se', request_id=3627787573, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2332.978, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145324048, position_by=0))
+11/04/2024 13:44:29 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+11/04/2024 13:44:51 closing previous Sell Trade of level 2333.0
+11/04/2024 13:44:51 Opening new BBS Trade this is new level next BBSup: 2333.0 and BBSdown:2331.0 
+11/04/2024 13:46:07 closing previous Sell Trade of level 2332.0
+11/04/2024 13:46:07 Opening new BBS Trade this is new level next BBSup: 2332.0 and BBSdown:2330.0 
+11/04/2024 13:50:25Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2332.0, next up level=2333.0, next down level=2331.0 
+11/04/2024 13:52:02 closing previous BBS Trade of level 2332.0
+11/04/2024 13:52:02 OrderSendResult(retcode=10009, deal=107695764, order=145329046, volume=0.1, price=2332.733, bid=2332.733, ask=2332.733, comment='python  close se', request_id=3627787599, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2332.777, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145328506, position_by=0))
+11/04/2024 13:52:02 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+11/04/2024 14:04:21 closing previous Sell Trade of level 2333.0
+11/04/2024 14:04:21 OrderSendResult(retcode=10009, deal=107703502, order=145337508, volume=0.1, price=2331.928, bid=2331.928, ask=2331.928, comment='python  close se', request_id=3627787603, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2331.997, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145329056, position_by=0))
+11/04/2024 14:04:21 Opening new BBS Trade this is new level next BBSup: 2333.0 and BBSdown:2331.0 
+11/04/2024 14:05:54 closing previous Sell Trade of level 2332.0
+11/04/2024 14:05:54 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2330.993, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145328506, position_by=0))
+11/04/2024 14:05:54 Opening new BBS Trade this is new level next BBSup: 2332.0 and BBSdown:2330.0 
+11/04/2024 14:07:07 closing previous Sell Trade of level 2331.0
+11/04/2024 14:07:07 Opening new BBS Trade this is new level next BBSup: 2331.0 and BBSdown:2329.0 
+11/04/2024 14:07:52 closing previous BBS Trade of level 2330.0
+11/04/2024 14:07:52 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2332.0,bbsdownLevel:2330.0
+11/04/2024 15:29:03 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2331.0, next up level=2332.0, next down level=2330.0 
+11/04/2024 15:36:21 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2332.0, next up level=2333.0, next down level=2331.0 
+11/04/2024 15:39:31 closing previous BBS Trade of level 2332.0
+11/04/2024 15:39:31 OrderSendResult(retcode=10009, deal=107742611, order=145382571, volume=0.1, price=2333.068, bid=2333.068, ask=2333.068, comment='python  close se', request_id=1200229855, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2333.068, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145381569, position_by=0))
+11/04/2024 15:39:31 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+11/04/2024 15:42:24 closing previous BBS Trade of level 2333.0
+11/04/2024 15:42:24 OrderSendResult(retcode=10009, deal=107743344, order=145383465, volume=0.1, price=2334.197, bid=2334.197, ask=2334.197, comment='python  close se', request_id=1200229861, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.043, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145382579, position_by=0))
+11/04/2024 15:42:24 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2333.0 
+11/04/2024 15:43:11 closing previous BBS Trade of level 2334.0
+11/04/2024 15:43:11 OrderSendResult(retcode=10009, deal=107743863, order=145384053, volume=0.1, price=2335.052, bid=2335.052, ask=2335.052, comment='python  close se', request_id=1200229867, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.052, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145383487, position_by=0))
+11/04/2024 15:43:11 Opening new BBS Trade this is new level next BBSup: 2336.0 and BBSdown:2334.0 
+11/04/2024 15:48:20 closing previous BBS Trade of level 2335.0
+11/04/2024 15:48:20 OrderSendResult(retcode=10009, deal=107745872, order=145386300, volume=0.1, price=2336.707, bid=2336.707, ask=2336.707, comment='python  close se', request_id=1200229873, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.62, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145384066, position_by=0))
+11/04/2024 15:48:20 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 15:48:35 closing previous BBS Trade of level 2336.0
+11/04/2024 15:48:35 OrderSendResult(retcode=10009, deal=107746105, order=145386578, volume=0.1, price=2336.873, bid=2336.873, ask=2336.873, comment='python  close se', request_id=1200229879, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.873, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145386364, position_by=0))
+11/04/2024 15:48:35 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 15:49:17 closing previous Sell Trade of level 2337.0
+11/04/2024 15:49:17 OrderSendResult(retcode=10009, deal=107746416, order=145386932, volume=0.1, price=2335.986, bid=2335.986, ask=2335.986, comment='python  close se', request_id=1200229883, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.996, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145386586, position_by=0))
+11/04/2024 15:49:17 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 15:50:23 closing previous Sell Trade of level 2336.0
+11/04/2024 15:50:23 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.954, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145386364, position_by=0))
+11/04/2024 15:50:23 OrderSendResult(retcode=10009, deal=107746976, order=145387546, volume=0.1, price=2335.07, bid=2335.07, ask=2335.07, comment='python  close se', request_id=1200229887, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.954, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145386936, position_by=0))
+11/04/2024 15:50:23 Opening new BBS Trade this is new level next BBSup: 2336.0 and BBSdown:2334.0 
+11/04/2024 15:51:30 closing previous Sell Trade of level 2335.0
+11/04/2024 15:51:30 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2333.976, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145384066, position_by=0))
+11/04/2024 15:51:30 OrderSendResult(retcode=10009, deal=107747423, order=145388057, volume=0.1, price=2334.16, bid=2334.16, ask=2334.16, comment='python  close se', request_id=1200229891, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2333.976, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145387554, position_by=0))
+11/04/2024 15:51:30 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2333.0 
+11/04/2024 15:56:09 closing previous BBS Trade of level 2334.0
+11/04/2024 15:56:09 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.027, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145383487, position_by=0))
+11/04/2024 15:56:09 OrderSendResult(retcode=10009, deal=107748801, order=145389678, volume=0.1, price=2334.876, bid=2334.876, ask=2334.876, comment='python  close se', request_id=1200229897, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.062, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145388070, position_by=0))
+11/04/2024 15:56:09 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2334.0
+11/04/2024 19:46:19 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2340.0, next up level=2341.0, next down level=2339.0 
+11/04/2024 19:46:29 closing previous Sell Trade of level 2340.0
+11/04/2024 19:46:29 OrderSendResult(retcode=10009, deal=107877232, order=145539135, volume=0.1, price=2338.449, bid=2338.449, ask=2338.449, comment='python  close se', request_id=3262921576, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.887, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145538850, position_by=0))
+11/04/2024 19:46:29 Opening new BBS Trade this is new level next BBSup: 2340.0 and BBSdown:2338.0 
+11/04/2024 19:46:32 closing previous Sell Trade of level 2339.0
+11/04/2024 19:46:32 OrderSendResult(retcode=10009, deal=107877385, order=145539302, volume=0.1, price=2337.929, bid=2337.929, ask=2337.929, comment='python  close se', request_id=3262921580, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.98, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145539188, position_by=0))
+11/04/2024 19:46:32 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2337.0 
+11/04/2024 19:47:04 closing previous Sell Trade of level 2338.0
+11/04/2024 19:47:04 OrderSendResult(retcode=10009, deal=107878891, order=145540856, volume=0.1, price=2336.907, bid=2336.907, ask=2336.907, comment='python  close se', request_id=3262921584, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.968, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145539353, position_by=0))
+11/04/2024 19:47:04 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:47:08 closing previous Sell Trade of level 2337.0
+11/04/2024 19:47:08 OrderSendResult(retcode=10009, deal=107879090, order=145541105, volume=0.1, price=2336.142, bid=2336.142, ask=2336.142, comment='python  close se', request_id=3262921588, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.986, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145540967, position_by=0))
+11/04/2024 19:47:08 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 19:47:10 closing previous Sell Trade of level 2336.0
+11/04/2024 19:47:10 OrderSendResult(retcode=10009, deal=107879359, order=145541360, volume=0.1, price=2335.03, bid=2335.03, ask=2335.03, comment='python  close se', request_id=3262921592, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.984, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145541268, position_by=0))
+11/04/2024 19:47:10 Opening new BBS Trade this is new level next BBSup: 2336.0 and BBSdown:2334.0 
+11/04/2024 19:47:12 closing previous BBS Trade of level 2335.0
+11/04/2024 19:47:12 OrderSendResult(retcode=10009, deal=107879433, order=145541443, volume=0.1, price=2335.757, bid=2335.757, ask=2335.757, comment='python  close se', request_id=3262921598, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.992, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145541395, position_by=0))
+11/04/2024 19:47:12 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2337.0,bbsdownLevel:2335.0
+11/04/2024 19:47:32 closing previous BBS Trade of level 2336.0
+11/04/2024 19:47:32 OrderSendResult(retcode=10009, deal=107879953, order=145541976, volume=0.1, price=2337.275, bid=2337.275, ask=2337.275, comment='python  close se', request_id=3262921602, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.229, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145541446, position_by=0))
+11/04/2024 19:47:32 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2338.0,bbsdownLevel:2336.0
+11/04/2024 19:47:46 closing previous BBS Trade of level 2337.0
+11/04/2024 19:47:46 OrderSendResult(retcode=10009, deal=107880331, order=145542375, volume=0.1, price=2338.1530000000002, bid=2338.1530000000002, ask=2338.1530000000002, comment='python  close se', request_id=3262921606, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.964, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145541984, position_by=0))
+11/04/2024 19:47:46 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2339.0,bbsdownLevel:2337.0
+11/04/2024 19:47:59 closing previous Sell Trade of level 2338.0
+11/04/2024 19:47:59 OrderSendResult(retcode=10009, deal=107880661, order=145542721, volume=0.1, price=2336.892, bid=2336.892, ask=2336.892, comment='python  close se', request_id=3262921608, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.998, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145542380, position_by=0))
+11/04/2024 19:47:59 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:48:24 closing previous BBS Trade of level 2337.0
+11/04/2024 19:48:24 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.005, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145541984, position_by=0))
+11/04/2024 19:48:24 OrderSendResult(retcode=10009, deal=107881479, order=145543580, volume=0.1, price=2337.962, bid=2337.962, ask=2337.962, comment='python  close se', request_id=3262921614, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.005, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145542737, position_by=0))
+11/04/2024 19:48:24 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2339.0,bbsdownLevel:2337.0
+11/04/2024 19:49:55 closing previous Sell Trade of level 2338.0
+11/04/2024 19:49:55 OrderSendResult(retcode=10009, deal=107882392, order=145544600, volume=0.1, price=2336.858, bid=2336.858, ask=2336.858, comment='python  close se', request_id=3262921616, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.976, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145543589, position_by=0))
+11/04/2024 19:49:55 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:50:36Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2335.0, next up level=2336.0, next down level=2334.0 
+11/04/2024 19:50:36 closing previous BBS Trade of level 2335.0
+11/04/2024 19:50:36 OrderSendResult(retcode=10009, deal=107882948, order=145545207, volume=0.1, price=2337.742, bid=2337.742, ask=2337.742, comment='python  close se', request_id=3262921634, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.742, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145545198, position_by=0))
+11/04/2024 19:50:36 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 19:50:39 closing previous BBS Trade of level 2336.0
+11/04/2024 19:50:39 OrderSendResult(retcode=10009, deal=107882960, order=145545220, volume=0.1, price=2337.98, bid=2337.98, ask=2337.98, comment='python  close se', request_id=3262921640, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.946, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145545215, position_by=0))
+11/04/2024 19:50:39 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:50:41 closing previous BBS Trade of level 2337.0
+11/04/2024 19:50:41 OrderSendResult(retcode=10009, deal=107883013, order=145545275, volume=0.1, price=2338.083, bid=2338.083, ask=2338.083, comment='python  close se', request_id=3262921646, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.421, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145545246, position_by=0))
+11/04/2024 19:50:41 Opening new BBS Trade this is new level next BBSup: 2339.0 and BBSdown:2337.0 
+11/04/2024 19:51:56 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2338.0, next up level=2340.0, next down level=2336.0 
+11/04/2024 19:52:28 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2338.0, next up level=2340.0, next down level=2336.0 
+11/04/2024 19:55:11Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2339.0, next up level=2340.0, next down level=2338.0 
+11/04/2024 19:55:59 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2338.0, next up level=2339.0, next down level=2337.0 
+11/04/2024 19:57:01 closing previous Sell Trade of level 2338.0
+11/04/2024 19:57:01 OrderSendResult(retcode=10009, deal=107887073, order=145549773, volume=0.1, price=2337.157, bid=2337.157, ask=2337.157, comment='python  close se', request_id=3262921674, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.994, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145549008, position_by=0))
+11/04/2024 19:57:01 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:57:16 closing previous BBS Trade of level 2337.0
+11/04/2024 19:57:16 OrderSendResult(retcode=10009, deal=107887186, order=145549894, volume=0.1, price=2338.2400000000002, bid=2338.2400000000002, ask=2338.2400000000002, comment='python  close se', request_id=3262921680, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2338.13, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145549786, position_by=0))
+11/04/2024 19:57:16 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2339.0,bbsdownLevel:2337.0
+11/04/2024 19:57:37 closing previous Sell Trade of level 2338.0
+11/04/2024 19:57:37 OrderSendResult(retcode=10009, deal=107887438, order=145550179, volume=0.1, price=2336.957, bid=2336.957, ask=2336.957, comment='python  close se', request_id=3262921682, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2336.991, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145549901, position_by=0))
+11/04/2024 19:57:37 Opening new BBS Trade this is new level next BBSup: 2338.0 and BBSdown:2336.0 
+11/04/2024 19:58:49 closing previous Sell Trade of level 2337.0
+11/04/2024 19:58:49 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.952, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145549786, position_by=0))
+11/04/2024 19:58:49 OrderSendResult(retcode=10009, deal=107888319, order=145551203, volume=0.1, price=2335.891, bid=2335.891, ask=2335.891, comment='python  close se', request_id=3262921686, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.952, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145550197, position_by=0))
+11/04/2024 19:58:49 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 19:58:57 closing previous BBS Trade of level 2336.0
+11/04/2024 19:58:57 OrderSendResult(retcode=10009, deal=107888394, order=145551300, volume=0.1, price=2337.003, bid=2337.003, ask=2337.003, comment='python  close se', request_id=3262921692, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2337.003, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145551214, position_by=0))
+11/04/2024 19:58:57 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2338.0,bbsdownLevel:2336.0
+11/04/2024 20:00:44 closing previous Sell Trade of level 2337.0
+11/04/2024 20:00:44 OrderSendResult(retcode=10009, deal=107889057, order=145552113, volume=0.1, price=2335.919, bid=2335.919, ask=2335.919, comment='python  close se', request_id=3262921694, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.961, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145551301, position_by=0))
+11/04/2024 20:00:44 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2335.919, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145550197, position_by=0))
+11/04/2024 20:00:44 Opening new BBS Trade this is new level next BBSup: 2337.0 and BBSdown:2335.0 
+11/04/2024 20:01:03 closing previous Sell Trade of level 2336.0
+11/04/2024 20:01:03 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.986, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145551214, position_by=0))
+11/04/2024 20:01:03 OrderSendResult(retcode=10009, deal=107889422, order=145552528, volume=0.1, price=2334.944, bid=2334.944, ask=2334.944, comment='python  close se', request_id=3262921698, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.986, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145552129, position_by=0))
+11/04/2024 20:01:03 Opening new BBS Trade this is new level next BBSup: 2336.0 and BBSdown:2334.0 
+11/04/2024 20:01:16 closing previous Sell Trade of level 2335.0
+11/04/2024 20:01:16 OrderSendResult(retcode=10009, deal=107889714, order=145552850, volume=0.1, price=2333.929, bid=2333.929, ask=2333.929, comment='python  close se', request_id=3262921702, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2333.992, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145552544, position_by=0))
+11/04/2024 20:01:16 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2333.0 
+11/04/2024 20:01:46 closing previous Sell Trade of level 2334.0
+11/04/2024 20:01:46 OrderSendResult(retcode=10009, deal=107890213, order=145553423, volume=0.1, price=2332.949, bid=2332.949, ask=2332.949, comment='python  close se', request_id=3262921706, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2332.999, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145552862, position_by=0))
+11/04/2024 20:01:46 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+11/04/2024 20:01:48 closing previous BBS Trade of level 2333.0
+11/04/2024 20:01:48 OrderSendResult(retcode=10009, deal=107890283, order=145553497, volume=0.1, price=2334.303, bid=2334.303, ask=2334.303, comment='python  close se', request_id=3262921712, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.238, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553472, position_by=0))
+11/04/2024 20:01:48 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2335.0,bbsdownLevel:2333.0
+11/04/2024 20:01:53 closing previous Sell Trade of level 2334.0
+11/04/2024 20:01:53 OrderSendResult(retcode=10009, deal=107890384, order=145553600, volume=0.1, price=2332.569, bid=2332.569, ask=2332.569, comment='python  close se', request_id=3262921714, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2332.967, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553507, position_by=0))
+11/04/2024 20:01:53 Opening new BBS Trade this is new level next BBSup: 2334.0 and BBSdown:2332.0 
+11/04/2024 20:02:04 closing previous BBS Trade of level 2333.0
+11/04/2024 20:02:04 OrderSendResult(retcode=10013, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Invalid request', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.111, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553472, position_by=0))
+11/04/2024 20:02:04 OrderSendResult(retcode=10009, deal=107890583, order=145553834, volume=0.1, price=2334.031, bid=2334.031, ask=2334.031, comment='python  close se', request_id=3262921720, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.165, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553640, position_by=0))
+11/04/2024 20:02:04 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2335.0,bbsdownLevel:2333.0
+11/04/2024 20:02:10 closing previous BBS Trade of level 2334.0
+11/04/2024 20:02:10 OrderSendResult(retcode=10009, deal=107890669, order=145553933, volume=0.1, price=2334.742, bid=2334.742, ask=2334.742, comment='python  close se', request_id=3262921724, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2334.941, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553838, position_by=0))
+11/04/2024 20:02:10 Open 1 new sell order this level has 2 buy open, new bbsupLevel 2336.0,bbsdownLevel:2334.0
+11/04/2024 20:02:33 closing previous Sell Trade of level 2335.0
+11/04/2024 20:02:33 OrderSendResult(retcode=10009, deal=107890905, order=145554218, volume=0.1, price=2333.976, bid=2333.976, ask=2333.976, comment='python  close se', request_id=3262921726, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2333.976, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=145553942, position_by=0))
+11/04/2024 20:02:33 Opening new BBS Trade this is new level next BBSup: 2335.0 and BBSdown:2333.0 

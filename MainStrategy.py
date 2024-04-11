@@ -13,7 +13,7 @@ vantage_timezone ="GMT"
 exceness="Etc/UTC"
 timezoneused=exceness
 
- 
+
 def get_mt5_credentials():
     credentials = {}
     try:
@@ -52,7 +52,7 @@ def get_user_settings():
         for index, row in df.iterrows():
             # Create a nested dictionary for each symbol
             symbol_dict = {
-                'TradeMode': float(row['TradeMode']),
+                'TradeMode': row['TradeMode'],
                 'NextLevelDistance': float(row['NextLevelDistance']),
                 'Lotsize': float(row['Lotsize']),
                 'MagicNumber': float(row['MagicNumber']),
@@ -63,6 +63,7 @@ def get_user_settings():
                 'ssbdownLevel': None,
                 'bbsupLevel': None,
                 'bbsdownLevel': None,
+                'runonce':False,
                 'Orders': []
             }
             result_dict[row['Symbol']] = symbol_dict
@@ -100,12 +101,18 @@ def main_strategy():
             candletime = symr[0][0]
 
             if params['TradeMode']=="BBS":
-                if (params['InitialTrade'] == None and close >= params['AbovePrice']):
+                if (
+                        params['InitialTrade'] == None and
+                        close >= params['AbovePrice'] and
+                        params['AbovePrice']>0 and
+                        params['runonce']==False
+                ):
                     add_level(params['AbovePrice'])
+                    params['runonce'] = True
                     params['InitialTrade'] = "BBS"
-                    params['bbsupLevel'] = params['AbovePrice'] - params['NextLevelDistance']
-                    params['bbsdownLevel'] = params['AbovePrice'] + params['NextLevelDistance']
-                    Oederog = f"{timestamp} One sell order and Two buy orderexecuted  @ {symbol} @ {params['Belowprice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    params['bbsupLevel'] = params['AbovePrice'] + params['NextLevelDistance']
+                    params['bbsdownLevel'] = params['AbovePrice'] - params['NextLevelDistance']
+                    Oederog = f"{timestamp}Initial One sell order and Two buy orderexecuted  @ {symbol} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
                     res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
@@ -117,7 +124,7 @@ def main_strategy():
                                        MagicNumber=int(params['MagicNumber']))
                     order2_id = res
 
-                    params['Orders'].append(trade_log)
+
                     res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order3_id = res
@@ -132,12 +139,18 @@ def main_strategy():
                     }
                     params['Orders'].append(trade_log)
 
-                if (params['InitialTrade'] == None and close <= params['Belowprice']):
+                if (
+                        params['InitialTrade'] == None and
+                        close <= params['Belowprice']and
+                        params['Belowprice']>0 and
+                        params['runonce']==False
+                ):
                     params['InitialTrade'] = "BBS"
+                    params['runonce'] = True
                     add_level(params['Belowprice'])
-                    params['bbsupLevel'] = params['Belowprice'] - params['NextLevelDistance']
-                    params['bbsdownLevel'] = params['Belowprice'] + params['NextLevelDistance']
-                    Oederog = f"{timestamp} One sell order and Two buy orderexecuted  @ {symbol} @ {params['Belowprice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    params['bbsupLevel'] = params['Belowprice'] + params['NextLevelDistance']
+                    params['bbsdownLevel'] = params['Belowprice'] - params['NextLevelDistance']
+                    Oederog = f"{timestamp} Initial One sell order and Two buy orderexecuted  @ {symbol} @ {params['Belowprice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
                     res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
@@ -162,14 +175,23 @@ def main_strategy():
                     }
                     params['Orders'].append(trade_log)
 
-                if (params['InitialTrade'] == "BBS" and close <= params['bbsdownLevel']):
+                if (
+                        params['InitialTrade'] == "BBS" and
+                        close <= params['bbsdownLevel'] and
+                        params['bbsdownLevel']>0
+                ):
+                    print("level_list: ",level_list)
                     if check_level(params['bbsdownLevel']) is False:
                         add_level(params['bbsdownLevel'])
-                        previouslevel = params['bbsupLevel'] + params['NextLevelDistance']
+                        previouslevel = params['bbsdownLevel'] + params['NextLevelDistance']
                         orderlog = f"{timestamp} closing previous Sell Trade of level {previouslevel}"
+                        print(orderlog)
                         write_to_order_logs(orderlog)
                         for order in params['Orders']:
+                            print("down level hit Triggerlevel: ", order['Triggrlevel'],"previouslevel: ",previouslevel)
                             if previouslevel == order['Triggrlevel']:
+                                print("After down level hit Triggerlevel: ", order['Triggrlevel'], "previouslevel: ",
+                                      previouslevel)
                                 trade.mt_close_sell(symbol, params['Lotsize'],order['OrderID_3'], timestamp)
 
                         res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
@@ -189,20 +211,25 @@ def main_strategy():
                             "OrderType_2": "BUY",
                             "OrderID_3": order3_id,
                             "OrderType_3": "SELL",
-                            "Triggrlevel": params['bbsupLevel']
+                            "Triggrlevel": params['bbsdownLevel']
                         }
                         params['Orders'].append(trade_log)
-                        params['bbsupLevel'] = params['bbsdownLevel'] - params['NextLevelDistance']
-                        params['bbsdownLevel'] = params['bbsdownLevel'] + params['NextLevelDistance']
+                        params['bbsupLevel'] = params['bbsdownLevel'] + params['NextLevelDistance']
+                        params['bbsdownLevel'] = params['bbsdownLevel'] - params['NextLevelDistance']
                         orderlog = f"{timestamp} Opening new BBS Trade this is new level next BBSup: {params['bbsupLevel']} and BBSdown:{params['bbsdownLevel']} "
+                        print(orderlog)
                         write_to_order_logs(orderlog)
 
                     if check_level(params['bbsdownLevel']) is True:
-                        previouslevel = params['bbsupLevel'] + params['NextLevelDistance']
+                        previouslevel = params['bbsdownLevel'] + params['NextLevelDistance']
                         orderlog = f"{timestamp} closing previous Sell Trade of level {previouslevel}"
+                        print(orderlog)
                         write_to_order_logs(orderlog)
                         for order in params['Orders']:
+                            print("down level hit Triggerlevel: ", order['Triggrlevel'])
                             if previouslevel == order['Triggrlevel']:
+                                print("After down level hit Triggerlevel: ", order['Triggrlevel'], "previouslevel: ",
+                                      previouslevel)
                                 trade.mt_close_sell(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
 
                         res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
@@ -222,22 +249,33 @@ def main_strategy():
                             "OrderType_2": "BUY",
                             "OrderID_3": order3_id,
                             "OrderType_3": "SELL",
-                            "Triggrlevel": params['bbsupLevel']
+                            "Triggrlevel": params['bbsdownLevel']
                         }
                         params['Orders'].append(trade_log)
-                        params['bbsupLevel'] = params['bbsdownLevel'] - params['NextLevelDistance']
-                        params['bbsdownLevel'] = params['bbsdownLevel'] + params['NextLevelDistance']
+                        params['bbsupLevel'] = params['bbsdownLevel'] + params['NextLevelDistance']
+                        params['bbsdownLevel'] = params['bbsdownLevel'] - params['NextLevelDistance']
                         orderlog = f"{timestamp} Opening new BBS Trade this is new level next BBSup: {params['bbsupLevel']} and BBSdown:{params['bbsdownLevel']} "
+                        print(orderlog)
                         write_to_order_logs(orderlog)
 
-            if (params['InitialTrade'] == "BBS" and close >= params['bbsupLevel']):
+                if (
+                    params['InitialTrade'] == "BBS" and
+                    close >= params['bbsupLevel']and
+                    params['bbsupLevel']>0
+                ):
+
                     if check_level(params['bbsupLevel']) is False:
                         add_level(params['bbsupLevel'])
+                        print("level_list: ", level_list)
                         previouslevel=params['bbsupLevel']-params['NextLevelDistance']
                         orderlog=f"{timestamp} closing previous BBS Trade of level {previouslevel}"
+                        print(orderlog)
                         write_to_order_logs(orderlog)
                         for order in params['Orders']:
+                            print("Up level hit Triggerlevel: ",order['Triggrlevel'])
                             if previouslevel == order['Triggrlevel']:
+                                print("After Up level hit Triggerlevel: ", order['Triggrlevel'], "previouslevel: ",
+                                      previouslevel)
                                 trade.mt_close_buy(symbol, params['Lotsize'],order['OrderID_1'], timestamp)
                                 trade.mt_close_buy(symbol, params['Lotsize'],order['OrderID_2'], timestamp)
                                 trade.mt_close_sell(symbol, params['Lotsize'],order['OrderID_3'], timestamp)
@@ -262,18 +300,24 @@ def main_strategy():
                             "Triggrlevel": params['bbsupLevel']
                         }
                         params['Orders'].append(trade_log)
-                        params['bbsdownLevel'] = params['bbsupLevel'] + params['NextLevelDistance']
-                        params['bbsupLevel'] = params['bbsupLevel'] - params['NextLevelDistance']
+                        params['bbsdownLevel'] = params['bbsupLevel'] - params['NextLevelDistance']
+                        params['bbsupLevel'] = params['bbsupLevel'] + params['NextLevelDistance']
                         orderlog = f"{timestamp} Opening new BBS Trade this is new level next BBSup: {params['bbsupLevel']} and BBSdown:{params['bbsdownLevel']} "
+                        print(orderlog)
                         write_to_order_logs(orderlog)
 
 
                     if check_level(params['bbsupLevel']) is True:
                         previouslevel = params['bbsupLevel'] - params['NextLevelDistance']
                         orderlog = f"{timestamp} closing previous BBS Trade of level {previouslevel}"
+                        print(orderlog)
                         write_to_order_logs(orderlog)
                         for order in params['Orders']:
+                            print("Up level hit Triggerlevel: ", order['Triggrlevel'], "previouslevel: ",
+                                  previouslevel)
                             if previouslevel == order['Triggrlevel']:
+                                print(" After Up level hit Triggerlevel: ", order['Triggrlevel'], "previouslevel: ",
+                                      previouslevel)
                                 trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_1'], timestamp)
                                 trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_2'], timestamp)
                                 trade.mt_close_sell(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
@@ -284,11 +328,13 @@ def main_strategy():
                                              MagicNumber=int(params['MagicNumber']))
                                 order3_id = res
                                 order['OrderID_3'] =order3_id
+                                break
 
-                        params['bbsdownLevel'] = params['bbsupLevel'] + params['NextLevelDistance']
-                        params['bbsupLevel'] = params['bbsupLevel'] - params['NextLevelDistance']
+                        params['bbsdownLevel'] = params['bbsupLevel'] - params['NextLevelDistance']
+                        params['bbsupLevel'] = params['bbsupLevel'] + params['NextLevelDistance']
 
                         orderlog = f"{timestamp} Open 1 new sell order this level has 2 buy open, new bbsupLevel {params['bbsupLevel']},bbsdownLevel:{params['bbsdownLevel']}"
+                        print(orderlog)
                         write_to_order_logs(orderlog)
 
 
@@ -309,6 +355,6 @@ def write_to_order_logs(message):
 
 # trade.mt_buy("XAUUSD",0.01,12345)
 # end_date = datetime(2024, 4, 13)
-# while True:
-#     main_strategy()
+while True:
+    main_strategy()
 
