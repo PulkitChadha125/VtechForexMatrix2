@@ -52,6 +52,7 @@ def get_user_settings():
         for index, row in df.iterrows():
             # Create a nested dictionary for each symbol
             symbol_dict = {
+                'TradeSymbol': row['TradeSymbol'],
                 'TradeMode': row['TradeMode'],
                 'NextLevelDistance': float(row['NextLevelDistance']),
                 'Lotsize': float(row['Lotsize']),
@@ -64,6 +65,8 @@ def get_user_settings():
                 'bbsupLevel': None,
                 'bbsdownLevel': None,
                 'runonce':False,
+                'UpperLimit':float(row['UpperLimit']),
+                'LowerLimit':float(row['LowerLimit']),
                 'Orders': []
             }
             result_dict[row['Symbol']] = symbol_dict
@@ -108,7 +111,7 @@ def main_strategy():
     global result_dict,level_list
     try:
         for symbol, params in result_dict.items():
-            symr = trade.get_data(symbol=symbol, timeframe="TIMEFRAME_M5")
+            symr = trade.get_data(symbol=params['TradeSymbol'], timeframe="TIMEFRAME_M5")
             close = float(symr[0][4])
             timestamp = datetime.now()
             timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
@@ -126,16 +129,16 @@ def main_strategy():
                     params['InitialTrade'] = "SSB"
                     params['ssbupLevel'] = params['AbovePrice'] + params['NextLevelDistance']
                     params['ssbdownLevel'] = params['AbovePrice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {symbol} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order1_id = res
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order2_id = res
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order3_id = res
                     trade_log = {
@@ -156,21 +159,21 @@ def main_strategy():
                         params['Belowprice'] > 0 and
                         params['runonce'] == False
                 ):
+                    add_level_SSB(params['Belowprice'])
                     params['InitialTrade'] = "SSB"
                     params['runonce'] = True
-                    add_level_SSB(params['Belowprice'])
                     params['ssbupLevel'] = params['Belowprice'] + params['NextLevelDistance']
                     params['ssbdownLevel'] = params['Belowprice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {symbol} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order1_id = res
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order2_id = res
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order3_id = res
                     trade_log = {
@@ -190,7 +193,7 @@ def main_strategy():
                         close >= params['ssbupLevel'] and
                         params['ssbupLevel'] > 0
                 ):
-                    if check_level(params['ssbupLevel']) is False:
+                    if check_level_SSB(params['ssbupLevel']) is False:
                         add_level_SSB(params['ssbupLevel'])
                         print("SSB_level_list: ", SSB_level_list)
                         previouslevel = params['ssbupLevel'] - params['NextLevelDistance']
@@ -200,15 +203,15 @@ def main_strategy():
                         for order in params['Orders']:
                             print("Up level hit Triggerlevel: ", order['SSBTriggrlevel'])
                             if order["mode"] == "SSB" and previouslevel == order['SSBTriggrlevel']:
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order1_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -227,7 +230,7 @@ def main_strategy():
                         orderlog = f"{timestamp} Opening new SSB Trade this is new level next SSBup: {params['ssbupLevel']} and SSBdown:{params['ssbdownLevel']} "
                         print(orderlog)
                         write_to_order_logs(orderlog)
-                    if check_level(params['ssbupLevel']) is True:
+                    if check_level_SSB(params['ssbupLevel']) is True:
                         print("SSB_level_list: ", SSB_level_list)
                         previouslevel = params['ssbupLevel'] - params['NextLevelDistance']
                         orderlog = f"{timestamp} closing 1 buy of previous SSB level {previouslevel}"
@@ -236,15 +239,15 @@ def main_strategy():
                         for order in params['Orders']:
                             print("Up level hit Triggerlevel: ", order['SSBTriggrlevel'])
                             if order["mode"] == "SSB" and previouslevel == order['SSBTriggrlevel']:
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order1_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -268,7 +271,7 @@ def main_strategy():
                 if (
                         params['InitialTrade'] == "SSB" and
                         close <= params['ssbdownLevel'] and
-                        params['ssbdownLevel']>0
+                        params['ssbdownLevel']>0 and close>params['LowerLimit']
                 ):
                     print("SSB_level_list: ",SSB_level_list)
                     if check_level_SSB(params['ssbdownLevel']) is False:
@@ -280,17 +283,17 @@ def main_strategy():
                         for order in params['Orders']:
                             if order["mode"] == "SSB" and previouslevel == order['SSBTriggrlevel']:
                                 print("down level hit Triggerlevel: ", order['SSBTriggrlevel'])
-                                trade.mt_close_sell(symbol, params['Lotsize'], order["OrderID_1"], timestamp)
-                                trade.mt_close_sell(symbol, params['Lotsize'], order["OrderID_2"], timestamp)
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order["OrderID_1"], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order["OrderID_2"], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order1_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -309,7 +312,7 @@ def main_strategy():
                         orderlog = f"{timestamp} Opening new SSB Trade this is new level next SSBup: {params['ssbupLevel']} and SSBdown:{params['ssbdownLevel']} "
                         print(orderlog)
                         write_to_order_logs(orderlog)
-                    if check_level(params['ssbdownLevel']) is True:
+                    if check_level_SSB(params['ssbdownLevel']) is True:
                         previouslevel = params['ssbdownLevel'] + params['NextLevelDistance']
                         orderlog = f"{timestamp} closing ssb of previous level {previouslevel}"
                         print(orderlog)
@@ -317,13 +320,13 @@ def main_strategy():
                         for order in params['Orders']:
                             if order["mode"] == "SSB" and previouslevel == order['SSBTriggrlevel']:
                                 print("down level hit Triggerlevel: ", order['SSBTriggrlevel'])
-                                trade.mt_close_sell(symbol, params['Lotsize'], order["OrderID_1"], timestamp)
-                                trade.mt_close_sell(symbol, params['Lotsize'], order["OrderID_2"], timestamp)
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order["OrderID_1"], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order["OrderID_2"], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
                         for order in params['Orders']:
                             if params['ssbdownLevel'] == order['SSBTriggrlevel']:
-                                res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                                res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                                 order3_id = res
                                 order['OrderID_3'] =order3_id
@@ -354,20 +357,20 @@ def main_strategy():
                     params['InitialTrade'] = "BBS"
                     params['bbsupLevel'] = params['AbovePrice'] + params['NextLevelDistance']
                     params['bbsdownLevel'] = params['AbovePrice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp}Initial One sell order and Two buy orderexecuted  @ {symbol} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp}Initial One sell order and Two buy orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order1_id=res
 
 
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order2_id = res
 
 
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order3_id = res
                     trade_log = {
@@ -393,18 +396,18 @@ def main_strategy():
                     add_level(params['Belowprice'])
                     params['bbsupLevel'] = params['Belowprice'] + params['NextLevelDistance']
                     params['bbsdownLevel'] = params['Belowprice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp} Initial One sell order and Two buy orderexecuted  @ {symbol} @ {params['Belowprice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp} Initial One sell order and Two buy orderexecuted  @ {params['TradeSymbol']} @ {params['Belowprice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order1_id=res
 
 
-                    res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                        MagicNumber=int(params['MagicNumber']))
                     order2_id = res
-                    res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                    res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                          MagicNumber=int(params['MagicNumber']))
                     order3_id = res
                     trade_log = {
@@ -436,16 +439,16 @@ def main_strategy():
                             if order["mode"]=="BBS" and previouslevel == order['BBSTriggrlevel']:
                                 print("After down level hit Triggerlevel: ", order['BBSTriggrlevel'], "previouslevel: ",
                                       previouslevel)
-                                trade.mt_close_sell(symbol, params['Lotsize'],order['OrderID_3'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'],order['OrderID_3'], timestamp)
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order1_id = res
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -475,16 +478,16 @@ def main_strategy():
                             if order["mode"]=="BBS" and previouslevel == order['BBSTriggrlevel']:
                                 print("After down level hit Triggerlevel: ", order['BBSTriggrlevel'], "previouslevel: ",
                                       previouslevel)
-                                trade.mt_close_sell(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order1_id = res
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -507,7 +510,7 @@ def main_strategy():
                 if (
                     params['InitialTrade'] == "BBS" and
                     close >= params['bbsupLevel']and
-                    params['bbsupLevel']>0
+                    params['bbsupLevel']>0 and close<params['UpperLimit']
                 ):
 
                     if check_level(params['bbsupLevel']) is False:
@@ -522,18 +525,18 @@ def main_strategy():
                             if order["mode"]=="BBS" and previouslevel == order['BBSTriggrlevel']:
                                 print("After Up level hit Triggerlevel: ", order['BBSTriggrlevel'], "previouslevel: ",
                                       previouslevel)
-                                trade.mt_close_buy(symbol, params['Lotsize'],order['OrderID_1'], timestamp)
-                                trade.mt_close_buy(symbol, params['Lotsize'],order['OrderID_2'], timestamp)
-                                trade.mt_close_sell(symbol, params['Lotsize'],order['OrderID_3'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'],order['OrderID_1'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'],order['OrderID_2'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'],order['OrderID_3'], timestamp)
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order1_id = res
 
-                        res = trade.mt_buy(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_buy(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                            MagicNumber=int(params['MagicNumber']))
                         order2_id = res
-                        res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                        res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                         order3_id = res
                         trade_log = {
@@ -565,13 +568,13 @@ def main_strategy():
                             if order["mode"]=="BBS" and previouslevel == order['BBSTriggrlevel']:
                                 print(" After Up level hit Triggerlevel: ", order['BBSTriggrlevel'], "previouslevel: ",
                                       previouslevel)
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_1'], timestamp)
-                                trade.mt_close_buy(symbol, params['Lotsize'], order['OrderID_2'], timestamp)
-                                trade.mt_close_sell(symbol, params['Lotsize'], order['OrderID_3'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_1'], timestamp)
+                                trade.mt_close_buy(params['TradeSymbol'], params['Lotsize'], order['OrderID_2'], timestamp)
+                                trade.mt_close_sell(params['TradeSymbol'], params['Lotsize'], order['OrderID_3'], timestamp)
 
                         for order in params['Orders']:
                             if params['bbsupLevel'] == order['BBSTriggrlevel']:
-                                res = trade.mt_short(symbol=symbol, lot=float(params['Lotsize']),
+                                res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
                                              MagicNumber=int(params['MagicNumber']))
                                 order3_id = res
                                 order['OrderID_3'] =order3_id

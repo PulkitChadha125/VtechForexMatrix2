@@ -1,2 +1,3 @@
-Symbol,TradeMode,Belowprice,AbovePrice,NextLevelDistance,Lotsize,MagicNumber
-XAUUSD,SSB,2396,2397,1,0.1,12345
+Symbol,TradeSymbol,TradeMode,Belowprice,AbovePrice,NextLevelDistance,Lotsize,MagicNumber,UpperLimit,LowerLimit
+BTCUSD_SSB,BTCUSD,SSB,67200,67400,200,0.1,12345
+BTCUSD_BBS,BTCUSD,BBS,67200,67400,200,0.2,12345
