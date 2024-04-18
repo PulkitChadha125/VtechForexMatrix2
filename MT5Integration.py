@@ -123,7 +123,7 @@ def mt_buy(symbol,lot,MagicNumber):
             "magic": MagicNumber,
             "comment": "python buy order",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
         result = mt.order_send(request)
 
@@ -147,7 +147,7 @@ def mt_buy_bracket(symbol,lot,MagicNumber,sl,tp,reference_price):
             "magic": MagicNumber,
             "comment": "python buy order",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
     result = mt.order_send(request)
 
@@ -172,7 +172,7 @@ def mt_sell_bracket(symbol,lot,MagicNumber,sl,tp,reference_price):
             "magic": MagicNumber,
             "comment": "python sell order",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
     result = mt.order_send(request)
 
@@ -192,7 +192,7 @@ def mt_short(symbol,lot,MagicNumber):
             "magic": MagicNumber,
             "comment": "python sell order",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
         result = mt.order_send(request)
         order_id = result.order
@@ -212,7 +212,7 @@ def mt_close_buy(symbol,lot,orderid,timestamp):
             "price": price,
             "comment": "python  close buy ",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
         result = mt.order_send(request)
 
@@ -235,7 +235,7 @@ def mt_close_sell(symbol,lot,orderid,timestamp):
             "price": price,
             "comment": "python  close sell ",
             "type_time": mt.ORDER_TIME_GTC,
-            "type_filling": mt.ORDER_FILLING_IOC,
+            "type_filling": mt.ORDER_FILLING_FOK,
         }
         result = mt.order_send(request)
 

@@ -537,3 +537,146 @@
 12/04/2024 15:09:16 Open 1 new Buy order this level has 2 sell open, new bbsupLevel 2396.0,bbsdownLevel:2394.0
 13/04/2024 13:58:31Initial One Buy order and Two SELL orderexecuted  @ BTCUSD @ 67400.0, next up level=None, next down level=None 
 13/04/2024 13:58:32Initial One sell order and Two buy orderexecuted  @ BTCUSD @ 67400.0, next up level=67600.0, next down level=67200.0 
+16/04/2024 14:30:33Initial One Buy order and Two SELL orderexecuted  @ BTCUSD @ 67400.0, next up level=None, next down level=None 
+16/04/2024 14:30:33 Initial One sell order and Two buy orderexecuted  @ BTCUSD @ 67200.0, next up level=67400.0, next down level=67000.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 67200.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 67200.0 and BBSdown:66800.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 67000.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 67000.0 and BBSdown:66600.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 66800.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 66800.0 and BBSdown:66400.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 66600.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 66600.0 and BBSdown:66200.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 66400.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 66400.0 and BBSdown:66000.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 66200.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 66200.0 and BBSdown:65800.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 66000.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 66000.0 and BBSdown:65600.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 65800.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 65800.0 and BBSdown:65400.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 65600.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 65600.0 and BBSdown:65200.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 65400.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 65400.0 and BBSdown:65000.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 65200.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 65200.0 and BBSdown:64800.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 65000.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 65000.0 and BBSdown:64600.0 
+16/04/2024 14:30:33 closing previous Sell Trade of level 64800.0
+16/04/2024 14:30:33 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:33 Opening new BBS Trade this is new level next BBSup: 64800.0 and BBSdown:64400.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 64600.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 64600.0 and BBSdown:64200.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 64400.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 64400.0 and BBSdown:64000.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 64200.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 64200.0 and BBSdown:63800.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 64000.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 64000.0 and BBSdown:63600.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 63800.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 63800.0 and BBSdown:63400.0 
+16/04/2024 14:30:34 closing previous Sell Trade of level 63600.0
+16/04/2024 14:30:34 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63315.461, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:30:34 Opening new BBS Trade this is new level next BBSup: 63600.0 and BBSdown:63200.0 
+16/04/2024 14:34:17Initial One Buy order and Two SELL orderexecuted  @ BTCUSD @ 67400.0, next up level=None, next down level=None 
+16/04/2024 14:34:17 Initial One sell order and Two buy orderexecuted  @ BTCUSD @ 67200.0, next up level=67400.0, next down level=67000.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 67200.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 67200.0 and BBSdown:66800.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 67000.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 67000.0 and BBSdown:66600.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 66800.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 66800.0 and BBSdown:66400.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 66600.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 66600.0 and BBSdown:66200.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 66400.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 66400.0 and BBSdown:66000.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 66200.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 66200.0 and BBSdown:65800.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 66000.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 66000.0 and BBSdown:65600.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 65800.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 65800.0 and BBSdown:65400.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 65600.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 65600.0 and BBSdown:65200.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 65400.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 65400.0 and BBSdown:65000.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 65200.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 65200.0 and BBSdown:64800.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 65000.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 65000.0 and BBSdown:64600.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 64800.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 64800.0 and BBSdown:64400.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 64600.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 64600.0 and BBSdown:64200.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 64400.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 64400.0 and BBSdown:64000.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 64200.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 64200.0 and BBSdown:63800.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 64000.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 64000.0 and BBSdown:63600.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 63800.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 63800.0 and BBSdown:63400.0 
+16/04/2024 14:34:17 closing previous Sell Trade of level 63600.0
+16/04/2024 14:34:17 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63427.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:34:17 Opening new BBS Trade this is new level next BBSup: 63600.0 and BBSdown:63200.0 
+16/04/2024 14:36:53Initial One Buy order and Two SELL orderexecuted  @ BTCUSD @ 67400.0, next up level=None, next down level=None 
+16/04/2024 14:36:56 Initial One sell order and Two buy orderexecuted  @ BTCUSD @ 67200.0, next up level=67400.0, next down level=67000.0 
+16/04/2024 14:36:56 closing previous Sell Trade of level 67200.0
+16/04/2024 14:36:56 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63422.66, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:36:56 Opening new BBS Trade this is new level next BBSup: 67200.0 and BBSdown:66800.0 
+16/04/2024 14:37:09 closing previous Sell Trade of level 67000.0
+16/04/2024 14:37:09 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63445.656, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:37:09 Opening new BBS Trade this is new level next BBSup: 67000.0 and BBSdown:66600.0 
+16/04/2024 14:37:16 closing previous Sell Trade of level 66800.0
+16/04/2024 14:37:16 OrderSendResult(retcode=10030, deal=0, order=0, volume=0.0, price=0.0, bid=0.0, ask=0.0, comment='Unsupported filling mode', request_id=0, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='BTCUSD', volume=0.2, price=63438.262, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=1, type_time=0, expiration=0, comment='python  close sell ', position=0, position_by=0))
+16/04/2024 14:41:26Initial One Buy order and Two SELL orderexecuted  @ BTCUSD @ 63400.0, next up level=None, next down level=None 
+16/04/2024 14:41:35 Initial One sell order and Two buy orderexecuted  @ BTCUSD @ 63300.0, next up level=63500.0, next down level=63100.0 
+16/04/2024 14:43:06Initial One Buy order and Two SELL orderexecuted  @ XAUUSD @ 2370.0, next up level=None, next down level=None 
+16/04/2024 14:43:07Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2370.0, next up level=2371.0, next down level=2369.0 
+16/04/2024 14:44:22Initial One Buy order and Two SELL orderexecuted  @ XAUUSD @ 2370.0, next up level=None, next down level=None 
+16/04/2024 14:44:23Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2370.0, next up level=2371.0, next down level=2369.0 
+16/04/2024 14:48:11 Initial One sell order and Two buy orderexecuted  @ XAUUSD @ 2371.0, next up level=2372.0, next down level=2370.0 
+16/04/2024 14:48:11Initial One Buy order and Two SELL orderexecuted  @ XAUUSD @ 2372.0, next up level=2372.0, next down level=2370.0 
+16/04/2024 14:49:38 closing previous Sell Trade of level 2371.0
+16/04/2024 14:49:38 OrderSendResult(retcode=10009, deal=41028152, order=62154820, volume=0.2, price=2370.25, bid=0.0, ask=0.0, comment='Request executed', request_id=2883146508, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.2, price=2370.25, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=0, type_time=0, expiration=0, comment='python  close sell ', position=62153857, position_by=0))
+16/04/2024 14:49:38 Opening new BBS Trade this is new level next BBSup: 2371.0 and BBSdown:2369.0 
+16/04/2024 14:49:50 closing ssb of previous level 2371.0
+16/04/2024 14:49:50 OrderSendResult(retcode=10009, deal=41028175, order=62154937, volume=0.1, price=2370.29, bid=0.0, ask=0.0, comment='Request executed', request_id=2883146512, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2370.29, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=0, type_time=0, expiration=0, comment='python  close sell ', position=62153861, position_by=0))
+16/04/2024 14:49:50 OrderSendResult(retcode=10009, deal=41028177, order=62154941, volume=0.1, price=2370.28, bid=0.0, ask=0.0, comment='Request executed', request_id=2883146513, retcode_external=0, request=TradeRequest(action=1, magic=0, order=0, symbol='XAUUSD', volume=0.1, price=2370.29, stoplimit=0.0, sl=0.0, tp=0.0, deviation=0, type=0, type_filling=0, type_time=0, expiration=0, comment='python  close sell ', position=62153867, position_by=0))
+16/04/2024 14:49:50 Opening new SSB Trade this is new level next SSBup: 2371.0 and SSBdown:2369.0 

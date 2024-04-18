@@ -116,7 +116,6 @@ def main_strategy():
             timestamp = datetime.now()
             timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
             candletime = symr[0][0]
-
             if params['TradeMode'] == "SSB":
                 if (
                         params['InitialTrade'] == None and
@@ -129,7 +128,7 @@ def main_strategy():
                     params['InitialTrade'] = "SSB"
                     params['ssbupLevel'] = params['AbovePrice'] + params['NextLevelDistance']
                     params['ssbdownLevel'] = params['AbovePrice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['ssbupLevel']}, next down level={params['ssbdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
                     res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
@@ -164,7 +163,7 @@ def main_strategy():
                     params['runonce'] = True
                     params['ssbupLevel'] = params['Belowprice'] + params['NextLevelDistance']
                     params['ssbdownLevel'] = params['Belowprice'] - params['NextLevelDistance']
-                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['bbsupLevel']}, next down level={params['bbsdownLevel']} "
+                    Oederog = f"{timestamp}Initial One Buy order and Two SELL orderexecuted  @ {params['TradeSymbol']} @ {params['AbovePrice']}, next up level={params['ssbupLevel']}, next down level={params['ssbdownLevel']} "
                     print(Oederog)
                     write_to_order_logs(Oederog)
                     res = trade.mt_short(symbol=params['TradeSymbol'], lot=float(params['Lotsize']),
